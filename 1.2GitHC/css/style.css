@@ -1,0 +1,21 @@
+header {
+    text-align: center;
+    color: white;
+    font-weight: bolder
+}
+body {
+    background-color: #efeee7;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+h1 {
+    background-color: black;
+    color: #333333;
+    padding-top: 20px;
+    padding-bottom: 20px;    
+}
+
+.container {
+    width: 70%;
+}
