@@ -86,11 +86,6 @@ article {
 }
 
 p {
-    
-    /*padding: 10px;*/
-    /* padding-right: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px; */
     color: #777;
     background: #ebebeb;
     margin-top: 8px;
@@ -101,7 +96,15 @@ p {
     padding-bottom: 10px;
 }
 
-
+/* .test {
+    clear: both;
+    background: #ebebeb;
+    height: 40px;
+    margin-top: 5px;
+    margin-right: 80px;
+    margin-bottom: 10px;
+    margin-left: 80px;
+} */
 
 footer {
     clear: both;

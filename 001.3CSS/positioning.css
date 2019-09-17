@@ -7,11 +7,7 @@
   text-align: center;
 }
 
-body {
-}
-
 header {
-    text-align: center;
     width: 100%;
     height: 60px;
     padding: 20px;
@@ -20,18 +16,16 @@ header {
     background: #ccc;
 }
 
-section {
-}
-
 h1 {
     text-align: left;
 }
+
 #fixed {
     position: fixed;
     top: 0;
-
+    left: 0;
     width: 250px;
-    height: 120px;
+    height: 110px;
     background: #eee
 
 }
@@ -39,62 +33,43 @@ h1 {
 #top {
     color: black;
     float: left;
-    width: 60;
-    margin-left: 250px;
+    width: 600px;
+    margin-left: 210px;
     text-align: left;
-    height: 60px;
-    text-align: left;
+    /* height: 60px; */
     background:white;
 }
 
 #middle {
     position: relative;
-    color: white;
-    width: 33%;
-    height: 150px;
-    padding: 20px;
-    text-align: center;
+    z-index: 0;
+    top: 200px;
+    left: 210px;
+    color: black;
+    width: 600px;
+    /* vertical-align: bottom; */
+    /* height: 150px; */
+    /* padding: 20px; */
     background:#eee;
 }
 
+#absolute {
+    position: absolute;
+    z-index: 1;
+    top: 138px;
+    left: 360px;
+    width: 270px;
+    height: 90px;
+    background: #999;
+
+}
 #bottom {
     color: black;
-    width: 34%;
-    height: 60px;
-    padding: 20px;
-    text-align: center;
-    background: white;
-}
-
-#full {
-    width: 100%;
-    height: 400px;
-    clear: both;
-    padding-top: 20px;
+    width: 600px;
+    /* height: 60px; */
     /* padding: 20px; */
-    background: #eee;
-    margin-top:90px;
-}
-
-#division {
-    width: 100%;
-    height: 60px;
-    padding-top: 20px;
-    background: #6ea3da;
-    text-align: center;
-    vertical-align: middle;
-}
-
-aside {
-    margin-left:50px;
-    width: 33%;
-    height: 360px;
-    padding-top: 20px;
-    float: left;
-    background: #fff
-  
-}
-
-footer {
-    clear: both;
+    margin-top: 210px;
+    margin-left:210px;
+    text-align: left;
+    background: white;
 }
