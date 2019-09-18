@@ -2,11 +2,20 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: #777;
-    background: #777;
-    width: 960px;
-    margin-right: 80px;
+    background: white;
+    height: 100%;
     font-size: 18px;
     text-align: center;
+}
+
+.bodycont {
+    width: 960px;
+    height: 100%;
+    /* margin-right: 80px;
+    margin-left: 80px; */
+    background: #777;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .bkgrd {
     background: #ebebeb;
@@ -16,38 +25,34 @@ body {
 header, nav, footer {
     height: 40px;
     margin-top: 5px;
-    margin-right: 80px;
     margin-bottom: 10px;
     margin-left: 80px;
+    margin-right: 80px;
    
-}
+} 
 
-/* flex-container1 > aside, section {
+.flex-container1 {
+    width: 960px;
     display: flex;
     flex-direction: row-reverse;
-    background: #ebebeb;
-    padding-top: 20px;
-    margin-top: 10px;
+    background: #777;
     margin-bottom: 5px;
-} */
+}
 
 aside {
     width: 285px;
-    height: 80px;
+    /* height: 80px; */
+    flex-grow: 1;
     background: #ebebeb;
-    float: right;
-    padding-top: 20px;
     margin-top: 10px;
     margin-right: 80px;
     margin-bottom: 5px;
-    
+    margin-left: 15px;
 }
 
 section {
     width: 495px;
     background: #ebebeb;
-    float: left;
-    padding-top: 20px;
     margin-top: 10px;
     margin-right: 5px;
     margin-bottom: 5px;
@@ -94,7 +99,7 @@ p {
     margin-left: 15px;
     padding-top: 10px;
     padding-bottom: 10px;
-}
+} 
 
 /* .test {
     clear: both;
@@ -108,5 +113,5 @@ p {
 
 footer {
     clear: both;
-    margin-top: 275px;
+    margin-top: 10px;
 }
