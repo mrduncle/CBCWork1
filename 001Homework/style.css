@@ -55,7 +55,7 @@ section {
 
 }
 article {
-    
+    /* width: 100%; */
     color: #ebebeb;
     background: #777;
     padding-top: 20px;
