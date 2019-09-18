@@ -11,12 +11,11 @@ body {
 .bodycont {
     width: 960px;
     height: 100%;
-    /* margin-right: 80px;
-    margin-left: 80px; */
     background: #777;
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
 .bkgrd {
     background: #ebebeb;
     padding-top: 20px;
@@ -41,7 +40,6 @@ header, nav, footer {
 
 aside {
     width: 285px;
-    /* height: 80px; */
     flex-grow: 1;
     background: #ebebeb;
     margin-top: 10px;
@@ -57,10 +55,9 @@ section {
     margin-right: 5px;
     margin-bottom: 5px;
     margin-left: 80px;
-
 }
+
 article {
-    /* width: 100%; */
     color: #ebebeb;
     background: #777;
     padding-top: 20px;
@@ -69,7 +66,6 @@ article {
     margin-right: 7px;
     margin-bottom: 7px;
     margin-left: 7px;
-
 }
 
 .flex-container2 {
@@ -100,16 +96,6 @@ p {
     padding-top: 10px;
     padding-bottom: 10px;
 } 
-
-/* .test {
-    clear: both;
-    background: #ebebeb;
-    height: 40px;
-    margin-top: 5px;
-    margin-right: 80px;
-    margin-bottom: 10px;
-    margin-left: 80px;
-} */
 
 footer {
     clear: both;
