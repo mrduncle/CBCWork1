@@ -1,30 +1,120 @@
 body {
-
-
-}
-
-.nfont {
     font-family: Arial, Helvetica, sans-serif;
+    color: #777;
+    background: #ffffff;
+    height: 100%;
+    font-size: 18px;
+    /* text-align: center; */
 }
 
-.hfont {
+.body-cont {
+    width: 960px;
+    height: 100%;
+    /* background: #777; */
+    border: 2px;
+    border-color: #cccccc;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: auto;
+}
+
+nav {
+    width: 70%;
+    margin: auto;
+}
+
+.yourname {
+    background: #4aaaa5;
+    color: #ffffff;
+    width: 250px;
+    padding-top: 15px;
+    padding-right: 20px;  
+    padding-bottom: 15px;
+    padding-left: 20px;
+}
+
+.AbtMe {
+    margin-right: 20px;
+    margin-left: 20px;
+    border-style: solid;
+    border-color: #cccccc;
+    border-width: 0px 0px 2px 0px;
+}
+
+h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
- /* line height should be 1.5 x font size */
+    /* width: 100%; */
+    color: #4aaaa5;
+    font-size:1.5em;
+    /* padding-left: 20px; */
 }
 
+.npicfont {
+    word-spacing: 5px;
+    line-height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.65em;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-right: 20px;  
+}
+.nfont {
+    word-spacing: 5px;
+    line-height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.65em;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-left: 20px;  
+}
+
+.page-bkgrd{
+    /* background:#ffffff; */
+    background-image: "memphis-mini.png";
+    padding-top: 20px;
+    width: 70%;
+    margin: auto;
+}
+
+.page-content{
+    /* width: 960px; */
+    /* margin: auto; */
+    margin-bottom: 50px;
+    border-style: solid;
+    border-color: #dddddd;
+    border-width: 1px 1px 1px 1px;
+}
 
 .flex-container1 {
-    width: 100%;
+    /* width: 100%; */
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     background: #ffffff;
-    margin-bottom: 5px;
+    border-color: #cccccc;
+    border-bottom: 10px;
 }
 .flex-container2 {
-    width: 960px;
+    /* width: 300px; */
+    word-spacing: 4px;
+    /* text-decoration: none; this doesn't work for some bizarre reason*/
     display: flex;
     flex-direction: row;
-    background: #777;
-    margin-left: 80px;
-    margin-bottom: 5px;
+    margin: auto 0;
+    font-size: 0.65em;
+    text-align: right;
+    padding-right: 20px;
+}
+
+footer {
+    /*position: fixed for a sticky footer*/
+    text-align: center;
+    font-size: 0.5em;
+    color: #ffffff;
+    background: #666666;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    border-style: solid;
+    border-width: 8px 0px 0px 0px;
+    border-color: #4aaaa5;
 }
