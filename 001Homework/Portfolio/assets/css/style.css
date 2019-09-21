@@ -153,6 +153,97 @@ button {
     cursor: pointer;
 }
 
+.flex-container3 {
+    /* width: 300px; */
+    word-spacing: 4px;
+    /* text-decoration: none; this doesn't work for some bizarre reason*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 0.8em;
+    text-align: center;
+    color: #ffffff;
+    /* text-align: right; */
+}
+
+#Yewby {
+    width: 253.3px;
+    height: 190px;
+    margin-right: 20px;
+    margin-bottom:20px;
+    position: relative;
+}
+
+#Great-Falls {
+    width: 337.2px;
+    height: 190px;
+    padding-right: 20px;
+}
+
+#Tomkos { 
+    width: 337.2px;
+    height: 190px;
+    padding-right: 20px;
+}
+
+#Play-park {
+    width: 253.3px;
+    height: 190px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+#Child-play {
+    width: 253.3px;
+    height: 190px;
+    padding-right: 20px;
+}
+
+#The-Green {
+    width: 285.2px;
+    height: 190px;
+    padding-right: 20px;
+}
+
+#overlay-text1 {
+    position: absolute;
+    top: 356.5px;
+    width: auto;
+    padding: 10px 0px;
+    background: #4aaaa5;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+
+    /* padding-bottom: 10px; */
+} 
+
+#overlay-text2 {
+    position: absolute;
+    top: 570.5px;
+    width: auto;
+    padding: 10px 0px;
+    background: #4aaaa5;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+
+    /* padding-bottom: 10px; */
+} 
+
+#overlay-text3 {
+    position: absolute;
+    top: 782.5px;
+    width: auto;
+    padding: 10px 0px;
+    background: #4aaaa5;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+
+    /* padding-bottom: 10px; */
+} 
+
+
 footer {
     /*position: fixed for a sticky footer*/
     text-align: center;
