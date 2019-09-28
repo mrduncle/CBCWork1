@@ -1,4 +1,4 @@
-html, body {
+html, body {   /*required for the sticky footer*/
     height: 100%;
 }
 
@@ -6,7 +6,7 @@ label {
     color: #777777;
 }
 
-#page-content {
+#page-content {  /*required for the sticky footer*/
     flex: 1 0 auto;
 }
 
@@ -88,7 +88,7 @@ button {
 }
 
 #port-row {
-    position: relative;
+    /*position: relative;*/
     margin-left: 20px;
     margin-top: 20px;
 }
@@ -126,9 +126,13 @@ button {
     margin-left: 20px;
 }
 
-#overlay-text1 {
+.text-cont {
+    position: relative;
+}
+
+.overlay-text {
     position: absolute;
-    top: 140px;
+    top:-50px;
     width: auto;
     padding: 10px 0px;
     color: #ffffff;
@@ -136,32 +140,9 @@ button {
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
 } 
-
- #overlay-text2 {
-    position: absolute;
-    top: 140px;
-    width: auto;
-    padding: 10px 0px;
-    color: #ffffff;
-    background: #4aaaa5;
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
-} 
-
-#overlay-text3 {
-    position: absolute;
-    top: 140px;
-    width: auto;
-    padding: 10px 0px;
-    color: #ffffff;
-    background: #4aaaa5;
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
-}   
-
 
 #sticky-footer {
-    flex-shrink: none;
+    flex-shrink: none; /*required for sticky footer*/
     background: #666666;
     border-width: 8px 0px 0px 0px;
     border-style: solid;
