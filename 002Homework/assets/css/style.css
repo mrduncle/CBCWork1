@@ -88,7 +88,9 @@ button {
 }
 
 #port-row {
+    position: relative;
     margin-left: 20px;
+    margin-top: 20px;
 }
 
 #Yewby {
@@ -99,7 +101,7 @@ button {
 #Great-Falls {
     width: 337.2px;
     height: 190px;
-    margin-left: 10px;
+    margin-left: 20px;
 }
 
 #Tomkos { 
@@ -110,7 +112,7 @@ button {
 #Play-park {
     width: 253.3px;
     height: 190px;
-    margin-left: 15px;
+    margin-left: 20px;
 }
 
 #Child-play {
@@ -121,8 +123,42 @@ button {
 #The-Green {
     width: 285.2px;
     height: 190px;
-    margin-left: -12px;
+    margin-left: 20px;
 }
+
+#overlay-text1 {
+    position: absolute;
+    top: 140px;
+    width: auto;
+    padding: 10px 0px;
+    color: #ffffff;
+    background: #4aaaa5;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+} 
+
+ #overlay-text2 {
+    position: absolute;
+    top: 140px;
+    width: auto;
+    padding: 10px 0px;
+    color: #ffffff;
+    background: #4aaaa5;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+} 
+
+#overlay-text3 {
+    position: absolute;
+    top: 140px;
+    width: auto;
+    padding: 10px 0px;
+    color: #ffffff;
+    background: #4aaaa5;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}   
+
 
 #sticky-footer {
     flex-shrink: none;
